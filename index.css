@@ -43,6 +43,11 @@ h6 {
 body {
     padding-left: 50px;
 }
-.anhmorry {
-    border-radius: 50%;
+.box {
+  position: absolute;left: 30px;top:13cm;
+  height: 308px;
+  width:308px;
+  box-shadow: 2px 0px 15px #f68157;
+  border-radius: 50%;
+  background:url(https://cdn.discordapp.com/attachments/963463887028617236/990276376236015636/Untitled-1.png);
 }
