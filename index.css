@@ -42,6 +42,7 @@ h6 {
 }
 body {
     padding-left: 50px;
+    
 }
 .box {
   position: absolute;left: 30px;top:13cm;
@@ -49,5 +50,117 @@ body {
   width:308px;
   box-shadow: 2px 0px 15px #f68157;
   border-radius: 50%;
-  background:url(https://cdn.discordapp.com/attachments/963463887028617236/990276376236015636/Untitled-1.png);
+  background:url(https://cdn.discordapp.com/attachments/963463887028617236/990276376236015636/Untitled-1.png);}
+
+
+.music {
+  max-width: 500px;
+  
+  margin:auto;
+  position:relative;
+  bottom: 300px;
+  left: 1500px;
+  background:#Ffff;
+  box-shadow: 0px 5px 15px black ;
+  padding-top: 10px;
+  padding: 15px 15px 30px;
+  border-radius: 10%;
+
+}
+
+.music-thumb {
+  width: 100px;
+  height:100px;
+  margin:0 auto 50px  ;
+}
+
+
+.music-thumb img{
+  width: 100%;
+  height:100%;
+  border-radius: 10%;
+  object-fit: cover;
+  
+}
+
+.name {
+  text-align: center;
+  font-size: 18px;
+  font-weight:500;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.control {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  background: rgb(255, 255, 255);
+  gap: 20px;
+}
+.player-inner {
+  width:30px;
+  height:30px;
+  cursor: pointer;
+  background-color:white;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #f68157;
+}
+.play {
+  width:30px;
+  height:30px;
+  cursor: pointer;
+  background-color:white;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #f68157;
+
+}
+.backward {
+  width:30px;
+  height:30px;
+  cursor: pointer;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forward {
+  width:30px;
+  height:30px;
+  cursor: pointer;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.range {
+  width:100%;
+  background:transparent;
+  -webkit-appearance: none;
+
+}
+.range::-webkit-slider-runnable-track {
+  width: 100%;
+  height:4px;
+  background-color: #f68157
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width:15px;
+  height:15px;
+  border-radius: 50%;
+  background-color:#f68157; 
+  box-shadow:0px 0px 0px 5px white,0 0 0 7px grey;
+  margin-top: -10px;
+  margin-left: -0px;
+
 }
