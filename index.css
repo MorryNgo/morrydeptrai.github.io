@@ -45,7 +45,7 @@ body {
     
 }
 .box {
-  position: absolute;left: 30px;top:13cm;
+  margin-top:20px;
   height: 308px;
   width:308px;
   box-shadow: 2px 0px 15px #f68157;
@@ -61,7 +61,7 @@ body {
   bottom: 300px;
   left: 1500px;
   background:#Ffff;
-  box-shadow: 0px 5px 15px black ;
+  box-shadow: 0px 5px 25px black ;
   padding-top: 10px;
   padding: 15px 15px 30px;
   border-radius: 10%;
@@ -85,7 +85,7 @@ body {
 
 .name {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   font-weight:500;
   align-items: center;
   justify-content: space-between;
