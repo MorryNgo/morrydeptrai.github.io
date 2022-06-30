@@ -2,7 +2,8 @@
     const playbtn = document.querySelector  (".player-inner");
     const forwardbtn= document.querySelector(".forward")
     const backbtn = document.querySelector  (".backward")
-    const   musics = ['https://github.com/MorryNgo/morrydeptrai.com/raw/main/Anh%20Nh%C3%A0%20%E1%BB%9E%20%C4%90%C3%A2u%20Th%E1%BA%BF%20%20AMEE%20x%20B%20RAY%20%20Masew%20Remix%20.mp3','https://github.com/MorryNgo/morrydeptrai.com/raw/main/Tinh_Dang_Nhu_Ly_Cafe.mp3'];
+    const   musics = ['https://github.com/MorryNgo/morrydeptrai.com/raw/main/Anh%20Nh%C3%A0%20%E1%BB%9E%20%C4%90%C3%A2u%20Th%E1%BA%BF%20%20AMEE%20x%20B%20RAY%20%20Masew%20Remix%20.mp3','https://github.com/MorryNgo/morrydeptrai.com/raw/main/Tinh_Dang_Nhu_Ly_Cafe.mp3'
+,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com_-_Em_La_Nhat_Kis_x_Hoang_Kaylee_x_Yahy_x_ZeapleeLofi_Version_by_1_9_6_7_Audio_Lyrics_Video.mp3"];
     
 
     let isPlaying = true;
