@@ -2,7 +2,7 @@
     const playbtn = document.querySelector  (".player-inner");
     const forwardbtn= document.querySelector(".forward")
     const backbtn = document.querySelector  (".backward")
-    const   musics = ['Anh Nhà Ở Đâu Thế  AMEE x B RAY  Masew Remix .mp3','Tinh_Dang_Nhu_Ly_Cafe.mp3'];
+    const   musics = ['https://github.com/MorryNgo/morrydeptrai.com/raw/main/Anh%20Nh%C3%A0%20%E1%BB%9E%20%C4%90%C3%A2u%20Th%E1%BA%BF%20%20AMEE%20x%20B%20RAY%20%20Masew%20Remix%20.mp3','https://github.com/MorryNgo/morrydeptrai.com/raw/main/Tinh_Dang_Nhu_Ly_Cafe.mp3'];
     
 
     let isPlaying = true;
@@ -38,7 +38,7 @@
         {indexSong = musics.length - 1;} isPlaying = true;
         }
 
-    song.setAttribute ("src" ,`./music/${musics[indexSong]}`);
+    song.setAttribute ("src" ,`${musics[indexSong]}`);
     playPause(`play`)
 }
     
