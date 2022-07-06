@@ -43,8 +43,10 @@ h6 {
 body {
     padding: 0;
     margin: 0;
+    background:url(https://images4.alphacoders.com/101/1016505.png) ;
+    background-position-x: -560px;
     background-size: cover;
-    background:url(https://images4.alphacoders.com/101/1016505.png)
+    
 }
 
 .Umaru {
