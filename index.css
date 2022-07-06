@@ -43,9 +43,7 @@ h6 {
 body {
     padding: 0;
     margin: 0;
-    background:url(https://images4.alphacoders.com/101/1016505.png) no-repeat;
-    background-size:cover;
-
+    background-size: cover;
 }
 
 .Umaru {
@@ -62,7 +60,10 @@ body {
   
   color: white;
   font-family: 'Century Gothic',sans-serif;}
-
+.bigbox b {
+  width: 100%;
+  box-shadow: 2px 0px 15px #f68157;
+}
 .box img {
   margin:auto;
   ;
