@@ -41,29 +41,45 @@ h6 {
   overflow-wrap: break-word;
 }
 body {
-    padding-left: 50px;
-    
+    padding: 0;
+    margin: 0;
+    background-size: cover;
 }
 
 .Umaru {
   display:inline
 }
-
-.box {
-  margin-top:20px;
-  height: 308px;
-  width:308px;
-  box-shadow: 2px 0px 15px #f68157;
-  border-radius: 50%;
-  background:url(https://cdn.discordapp.com/attachments/963463887028617236/990276376236015636/Untitled-1.png);}
-
-
-.music {
-  max-width: 300px;
-  
-  margin-top:-700px;
+.bigbox{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
   position:relative;
-  left: 1500px;
+  top:100px;
+  text-align: center;
+  margin: auto;
+  
+  color: white;
+  font-family: 'Century Gothic',sans-serif;}
+
+.box img {
+  margin:auto;
+  ;
+  width: 210px;
+  height: 210px;
+  box-shadow: 2px 0px 15px #f68157;
+  border-radius: 48%;
+;}
+.bigbox a{
+  color: white;
+  font-size: 50px;
+}
+.bigbox a:hover {
+ color: rgb(206, 199, 199) ;
+}
+.music {
+  margin-top: -500px;
+  max-width: 300px;
+  margin-left: auto;
   background:#Ffff;
   box-shadow: 0px 5px 25px black ;
   padding-top: 10px;
