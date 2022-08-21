@@ -27,7 +27,7 @@
 ,];
     
 
-    let isPlaying = false;
+    let isPlaying = true;
     let indexSong = 0;
     let indexPic = 0;
     
@@ -64,7 +64,7 @@
         }
 
     song.setAttribute ("src" ,`${musics[indexSong]}`);
-    playPause(`play`)
+    playPause()
 }
     function changethumb (a) {
         if (a===1) {
@@ -92,6 +92,6 @@
         } else {
                 song.play();
                 playbtn.innerHTML='<ion-icon name="pause-outline"></ion-icon>'  
-                isPlaying = false;
+                isPlaying = true;
             }
         }
