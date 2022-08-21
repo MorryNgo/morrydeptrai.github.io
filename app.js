@@ -1,5 +1,5 @@
     const song = document.getElementById        ('song');
-    const thumb = document.getElementById('thumb');
+    const thumb = document.querySelector('.thumb');
     const playbtn = document.querySelector  (".player-inner");
     const forwardbtn= document.querySelector(".forward")
     const backbtn = document.querySelector  (".backward")
@@ -27,7 +27,7 @@
 ,];
     
 
-    let isPlaying = true;
+    let isPlaying = false;
     let indexSong = 0;
     let indexPic = 0;
     
@@ -50,17 +50,17 @@
     function changeSong(dir) {
         if (dir===1){
             indexSong++;
-            isPlaying= true;
+            isPlaying= false;
         if (indexSong >= musics.length) {
             indexSong = 0;
         } 
    
-        isPlaying= true; }
+        isPlaying= false; }
         
         else if (dir===-1){
             indexSong--;
         if (indexSong < 0) 
-        {indexSong = musics.length - 1;} isPlaying = true;
+        {indexSong = musics.length - 1;} isPlaying = false;
         }
 
     song.setAttribute ("src" ,`${musics[indexSong]}`);
@@ -69,15 +69,15 @@
     function changethumb (a) {
         if (a===1) {
             indexPic++;
-            isPlaying= true;
+            isPlaying= false;
         if (indexPic>= pic.length) {
                 indexPic = 0;
             }
-            isPlaying = true;}
+            isPlaying = false;}
         else if (a===-1){
             indexPic--;
             if (indexPic<0)
-            {indexPic = pic.length - 1} isPlaying = true;
+            {indexPic = pic.length - 1} isPlaying = false;
         }
         thumb.setAttribute('src', `${pic[indexPic]}`)
     }
@@ -85,15 +85,13 @@
     playbtn.addEventListener ("click",playPause)
     function playPause() {
         if (isPlaying) {
-            console.log("play");
-            song.play();
-            playbtn.innerHTML='<ion-icon name="pause-outline"></ion-icon>';
+            song.pause();
+            playbtn.innerHTML='<ion-icon name="play-circle-outline"></ion-icon>';
             isPlaying = false;
             
         } else {
-                console.log("pause");
-                song.pause();
-                playbtn.innerHTML='<ion-icon name="play-circle-outline"></ion-icon>'  
-                isPlaying = true;
+                song.play();
+                playbtn.innerHTML='<ion-icon name="pause-outline"></ion-icon>'  
+                isPlaying = false;
             }
         }
