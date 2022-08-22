@@ -50,17 +50,17 @@
     function changeSong(dir) {
         if (dir===1){
             indexSong++;
-            isPlaying= false;
+            isPlaying= true;
         if (indexSong >= musics.length) {
             indexSong = 0;
         } 
    
-        isPlaying= false; }
+        isPlaying= true; }
         
         else if (dir===-1){
             indexSong--;
         if (indexSong < 0) 
-        {indexSong = musics.length - 1;} isPlaying = false;
+        {indexSong = musics.length - 1;} isPlaying = true;
         }
 
     song.setAttribute ("src" ,`${musics[indexSong]}`);
@@ -69,15 +69,15 @@
     function changethumb (a) {
         if (a===1) {
             indexPic++;
-            isPlaying= false;
+            isPlaying= true;
         if (indexPic>= pic.length) {
                 indexPic = 0;
             }
-            isPlaying = false;}
+            isPlaying = true;}
         else if (a===-1){
             indexPic--;
             if (indexPic<0)
-            {indexPic = pic.length - 1} isPlaying = false;
+            {indexPic = pic.length - 1} isPlaying = true;
         }
         thumb.setAttribute('src', `${pic[indexPic]}`)
     }
@@ -85,13 +85,13 @@
     playbtn.addEventListener ("click",playPause)
     function playPause() {
         if (isPlaying) {
-            song.pause();
-            playbtn.innerHTML='<ion-icon name="play-circle-outline"></ion-icon>';
+            song.play();
+            playbtn.innerHTML='<ion-icon name="pause-outline"></ion-icon>';
             isPlaying = false;
             
         } else {
-                song.play();
-                playbtn.innerHTML='<ion-icon name="pause-outline"></ion-icon>'  
+                song.pause();
+                playbtn.innerHTML='<ion-icon name="play-circle-outline"></ion-icon>'  
                 isPlaying = true;
             }
         }

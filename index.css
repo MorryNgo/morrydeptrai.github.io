@@ -1,49 +1,51 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-* {
-  margin: 0;
-  padding: 0;
-}
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
-html,
-body {
-  height: 100%;
-}
-body {
-  line-height: 1.5;
-}
+  html,
+  body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+  }
 
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-input,
-button,
-textarea,
-select {
-  font: inherit;
-  outline: none;
-}
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+    outline: none;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    overflow-wrap: break-word;
+  }
 body {
     padding: 0;
     margin: 0;
     background:url(https://images4.alphacoders.com/101/1016505.png) ;
+    background-blend-mode:color-burn;
+    background-color: rgb(177, 154, 145);
     background-position-x: -560px;
     background-size: cover;
     
@@ -59,8 +61,7 @@ body {
   position:relative;
   top:100px;
   text-align: center;
-  margin: auto;
-  
+  margin: auto; 
   color: white;
   font-family: 'Century Gothic',sans-serif;}
 .bigbox b {
@@ -88,8 +89,7 @@ body {
   margin-left: auto;
   background:#Ffff;
   box-shadow: 0px 5px 25px black ;
-  padding-top: 10px;
-  padding: 15px 15px 30px;
+  padding: 25px 15px 30px;
   border-radius: 10%;
 
 }
@@ -158,6 +158,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
 }
 .forward {
   width:30px;
@@ -167,6 +168,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
 }
 .range {
   width:100%;
