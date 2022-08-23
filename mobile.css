@@ -192,8 +192,8 @@ body {
 }
 .menu{
     background-color:rgb(39 13 0 / 64%);
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     position:relative;
     bottom: 420px;
     color:white;
@@ -201,9 +201,9 @@ body {
 
 .menu-icon{
     background-color:rgb(39 13 0 / 14%);
-    width: 60px;
-    height: 60px;
-    font-size: 60px;
+    width: 55px;
+    height: 55px;
+    font-size: 55px;
     cursor: pointer;
 }
 .menu-icon:hover{
@@ -239,8 +239,8 @@ body {
     height:300px;
   }
   to{
-    width: 60px;
-    height:60px;
+    width: 55px;
+    height:55px;
 }
 }
 
