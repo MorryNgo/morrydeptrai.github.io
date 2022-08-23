@@ -6,8 +6,8 @@
       
       <link rel="shortcut icon" type="x-icon" href="https://images-ext-1.discordapp.net/external/BcvrMT1SxpZsa_ou_ZB6cIFrGSWE8SbU_LJjPAbPkGw/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/887241353065541673/a_9ddcb528a7d2e2651e266fea8164604d.gif">
       
-      <link rel="stylesheet" href="index.css">
-      
+      <link rel="stylesheet" name="pc" media="only screen and (min-width:1600px)" href="index.css">
+      <link rel="stylesheet" media="only screen and (max-width: 600px)" href="mobile.css">
       
       <link ><script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
       <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
@@ -48,14 +48,13 @@
             <i class="fa fa-youtube" aria-hidden="true"></i>
         
          </a>
-      </text>
-
+   </div>
      <title>Morry</title>
      
 
-</div>
- 
-<div class="music">
+
+
+<div class="music" style="animation:m1">
    <div class="music-thumb">
       <img src="https://github.com/MorryNgo/maru-pic/raw/main/072874bed077d999b4fb8c53425d55df.jpg" class="thumb" >
       <h1 class="name">Music</h1>
@@ -74,8 +73,15 @@
    </div>
       
 </div>   
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="menu">
+   <div class="menu-icon">  
+      <ion-icon name="menu-outline" class="menu-button"></ion-icon> 
+   </div>
+   <div class="text-menu">
+   <div class="Info">Infomation</div>  
+   <div class="music-text">Music</div>
+</div>
+<meta name="viewport" content="device-width ,  initial-scale=1">
 
 <script src="./app.js"></script>
 

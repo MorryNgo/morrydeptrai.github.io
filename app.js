@@ -3,9 +3,17 @@
     const playbtn = document.querySelector  (".player-inner");
     const forwardbtn= document.querySelector(".forward")
     const backbtn = document.querySelector  (".backward")
-    
-    
-    
+    const menubtn = document.querySelector(".menu-icon")
+    const menu = document.querySelector(".menu")
+    const textmenu =document.querySelector(".text-menu")
+    const infobutton = document.querySelector(".Info")
+    const bigbox = document.querySelector(".bigbox")
+    const musicbox = document.querySelector(".music")
+    const musictext = document.querySelector(".music-text")
+
+
+
+
     const pic = ['https://github.com/MorryNgo/maru-pic/raw/main/072874bed077d999b4fb8c53425d55df.jpg'
 ,'https://github.com/MorryNgo/maru-pic/raw/main/093432e0832ead5a326201c764035b7b.jpg'
 ,'https://github.com/MorryNgo/maru-pic/raw/main/141b6dba6c5d5f52d58afb77842e05ad.jpg'
@@ -26,7 +34,7 @@
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20D%C3%B9%20Cho%20Mai%20V%E1%BB%81%20Sau%20%20Buitruonglinh%20%20%20Acoustic%20ver%20.mp3"
 ,];
     
-
+    let menuwork = true;
     let isPlaying = true;
     let indexSong = 0;
     let indexPic = 0;
@@ -95,3 +103,36 @@
                 isPlaying = true;
             }
         }
+menubtn.addEventListener("click", menuexit)
+function menuexit(){
+    if (menuwork) {
+        menubtn.innerHTML = '<ion-icon name="close-outline"></ion-icon>';
+        menu.style.animation = 'openmenu 2s ease forwards'
+        textmenu.style.animation = 'visibiletext 7s ease 1s forwards'
+        menuwork = false
+    }
+    else {
+        menubtn.innerHTML = '<ion-icon name="menu-outline"></ion-icon>';
+        menu.style.animation = 'closemenu 2s ease forwards'
+        textmenu.style.animation = 'hidetext ease forwards'
+        menuwork = true;
+    }
+}
+infobutton.addEventListener("click", function() {
+    changePage(1)
+})
+musictext.addEventListener("click",function() {
+    changePage(2)
+})
+function changePage(b) {
+    if (b === 1){
+    bigbox.style.visibility = "visible"
+    musicbox.style.visibility = "hidden"
+}
+    else if(b === 2 ) {
+    bigbox.style.visibility = "hidden"
+    musicbox.style.visibility = "visible"
+    musicbox.style.margin-top = "-400"
+    menu.style.margin-top = "-100"
+    }
+}

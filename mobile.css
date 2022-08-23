@@ -1,4 +1,4 @@
-   *,
+*,
   *::before,
   *::after {
     box-sizing: border-box;
@@ -46,7 +46,7 @@ body {
     background:url(https://images4.alphacoders.com/101/1016505.png) ;
     background-blend-mode:color-burn;
     background-color: rgb(177, 154, 145);
-    background-position-x: -580px;
+    background-position-x: 550px;
     background-size:cover;
     background-attachment: fixed; 
 }
@@ -59,20 +59,16 @@ body {
   background: rgba(0, 0, 0, 0.5);
   padding: 40px;
   position:relative;
-  top:100px;
+  top:150px;
   text-align: center;
   margin: auto; 
   color: white;
   font-family: 'Century Gothic',sans-serif;}
-.bigbox b {
-  width: 100%;
-  box-shadow: 2px 0px 15px #f68157;
-}
 .box img {
   margin:auto;
   ;
-  width: 210px;
-  height: 210px;
+  width: 180px;
+  height: 180px;
   box-shadow: 2px 0px 15px #f68157;
   border-radius: 48%;
 ;}
@@ -83,6 +79,9 @@ body {
 .bigbox a:hover {
  color: rgb(206, 199, 199) ;
 }
+.bigbox b {
+  width: 100%;
+  box-shadow: 2px 0px 15px #f68157;}
 .music {
   margin-top: -500px;
   max-width: 300px;
@@ -91,7 +90,7 @@ body {
   box-shadow: 0px 5px 25px black ;
   padding: 25px 15px 30px;
   border-radius: 10%;
-
+  visibility:hidden;
 }
 
 .music-thumb {
@@ -190,8 +189,75 @@ body {
   box-shadow:0px 0px 0px 5px white,0 0 0 7px grey;
   margin-top: -10px;
   margin-left: -0px;
-
 }
 .menu{
-  display:none;
+    background-color:rgb(39 13 0 / 64%);
+    width: 50px;
+    height: 50px;
+    position:relative;
+    bottom: 420px;
+    color:white;
+}
+
+.menu-icon{
+    background-color:rgb(39 13 0 / 14%);
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.menu-icon:hover{
+  background-color:#f68157;
+}
+.text-menu{
+  font-family:'Century Gothic',sans-serif ;
+  font-size:30px;
+  color:white;
+  cursor: pointer;
+  visibility: hidden;
+  text-shadow:3px 0px 6px #F04C00 ;    
+}
+.text-menu:hover{
+  background-color:hsla(19, 100%, 17%, 0.897);
+  width:50px;
+  height:50px;
+}
+
+@keyframes openmenu {
+    from{
+        width: 10px;
+        height:10px;
+    }
+    to {
+        width: 450px;
+        height:300px;
+    }
+}
+@keyframes closemenu {
+  from{
+    width: 450px;
+    height:300px;
+  }
+  to{
+    width: 50px;
+    height:50px;
+}
+}
+
+@keyframes visibiletext {  
+  from {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
+
+@keyframes hidetext{
+  from {
+    visibility: visible;
+  }
+  to {
+    visibility: hidden;
+  }
 }
