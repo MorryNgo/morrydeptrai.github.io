@@ -132,7 +132,6 @@ function changePage(b) {
     else if(b === 2 ) {
     bigbox.style.visibility = "hidden"
     musicbox.style.visibility = "visible"
-    musicbox.style.margin-top = "-400"
-    menu.style.margin-top = "-100"
+    musicbox.style.margin = '-400px 52px -100px'
     }
 }
