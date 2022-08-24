@@ -84,7 +84,7 @@ body {
   box-shadow: 2px 0px 15px #f68157;}
 .music {
   margin-top: -500px;
-  max-width: 300px;
+  width: 300px;
   margin-left: auto;
   background:#Ffff;
   box-shadow: 0px 5px 25px black ;
@@ -207,7 +207,7 @@ body {
     cursor: pointer;
 }
 .menu-icon:hover{
-  background-color:#f68157;
+  background-color:hsla(19, 100%, 17%, 0.897);
 }
 .text-menu{
   font-family:'Century Gothic',sans-serif ;
