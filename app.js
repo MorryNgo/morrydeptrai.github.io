@@ -4,6 +4,7 @@
     const forwardbtn= document.querySelector(".forward")
     const backbtn = document.querySelector  (".backward")
     const menubtn = document.querySelector(".menu-icon")
+    const range = document.querySelector("body > div.music > input")
 
     const menu = document.querySelector(".menu")
     const textmenu =document.querySelector(".text-menu")
@@ -159,4 +160,16 @@ function changePagePc(c) {
     bigbox.style.visibility = "hidden"
     musicbox.style.visibility = "visible"
     }
+}
+
+let timer = setInterval(Range,500)
+function Range(){
+    range.max = song.duration;
+    range.value = song.currentTime;
+}
+
+range.addEventListener("change", HandleRange)
+function HandleRange(){
+    song.currentTime = range.value
+    range.max = song.duration
 }
