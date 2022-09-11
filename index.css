@@ -46,7 +46,7 @@ body {
     background:url(https://images4.alphacoders.com/101/1016505.png) ;
     background-blend-mode:color-burn;
     background-color: rgb(177, 154, 145);
-    background-position-x: -560px;
+    background-position-x: -630px;
     background-size:cover;
     background-attachment: fixed; 
 }
@@ -85,7 +85,9 @@ body {
 }
 .music {
   width: 300px;
-  position:flex;
+  position:fixed;
+  top:750px;
+  left:-60px;
   margin: -300px 800px;
   background:rgba(10, 10, 10, 0.979);
   box-shadow: 0px 5px 25px black ;
@@ -180,18 +182,17 @@ body {
 .range::-webkit-slider-runnable-track {
   width: 100%;
   height:5px;
-  background-color: #f68157;
+  background-color: #f68257;
 }
 .range::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width:15px;
-  height:15px;
+  width:10px;
+  height:10px;
   border-radius: 50%;
   background-color:#f68157; 
   box-shadow:0px 0px 0px 5px white,0 0 0 7px grey;
-  margin-top: -5px;
+  margin-top: -2px;
   margin-left: -0px;
-
 }
 .menu{
   display:none;

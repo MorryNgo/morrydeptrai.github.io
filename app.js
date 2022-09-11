@@ -31,7 +31,8 @@
 ,'https://github.com/MorryNgo/maru-pic/raw/main/ee64c5e75782215af513e054bb434ded.jpg'
 ,'https://github.com/MorryNgo/maru-pic/raw/main/076aa527bb52f0ed75983c84467a9965.jpg'
 ,]
-    const   musics = ['https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20G%E1%BB%ADi%20V%E1%BB%A3%20T%C6%B0%C6%A1ng%20Lai%20%20KayDee%20ft%20Long%20N%C3%B3n%20L%C3%A1%20x%20RyanLo%20%20Fi%20Version%20by%201%209%206%207%20Audio%20Lyrics.mp3'
+    const   musics = ['https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20Nger%20%20V%C6%B0%C6%A1ng%20Official%20Audio.mp3'
+,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20G%E1%BB%ADi%20V%E1%BB%A3%20T%C6%B0%C6%A1ng%20Lai%20%20KayDee%20ft%20Long%20N%C3%B3n%20L%C3%A1%20x%20RyanLo%20%20Fi%20Version%20by%201%209%206%207%20Audio%20Lyrics.mp3'
 ,'https://github.com/MorryNgo/morrydeptrai.com/raw/main/Tinh_Dang_Nhu_Ly_Cafe.mp3'
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com_-_Em_La_Nhat_Kis_x_Hoang_Kaylee_x_Yahy_x_ZeapleeLofi_Version_by_1_9_6_7_Audio_Lyrics_Video.mp3"
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20Deus%20%20B%C3%B4ng%20Hoa%20Ch%E1%BA%B3ng%20Thu%E1%BB%99c%20V%E1%BB%81%20Ta%20Wind%20Remix.mp3"
@@ -39,7 +40,7 @@
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20th%E1%BB%A9c%20gi%E1%BA%A5c%20%20da%20lab%20%F0%9D%99%A8%F0%9D%99%A1%F0%9D%99%A4%F0%9D%99%AC%F0%9D%99%9A%F0%9D%99%99%20%20%F0%9D%99%A7%F0%9D%99%9A%F0%9D%99%AB%F0%9D%99%9A%F0%9D%99%A7%F0%9D%99%97%20flechazowu.mp3"
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20ai%20%C4%91%C6%B0a%20em%20v%E1%BB%81%20%20tia%20x%20l%C3%AA%20thi%E1%BB%87n%20hi%E1%BA%BFu%20%F0%9D%99%A8%F0%9D%99%A1%F0%9D%99%A4%F0%9D%99%AC%F0%9D%99%9A%F0%9D%99%99%20%20%F0%9D%99%A7%F0%9D%99%9A%F0%9D%99%AB%F0%9D%99%9A%F0%9D%99%A7%F0%9D%99%97%20flechazowu.mp3"
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20gu%20%20freaky%20x%20seachains%20x%201%209%206%207%20%F0%9D%99%A8%F0%9D%99%A1%F0%9D%99%A4%F0%9D%99%AC%F0%9D%99%9A%F0%9D%99%99%20%20%F0%9D%99%A7%F0%9D%99%9A%F0%9D%99%AB%F0%9D%99%9A%F0%9D%99%A7%F0%9D%99%97%20flechazowu.mp3"
-,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20D%C3%B9%20Cho%20Mai%20V%E1%BB%81%20Sau%20%20Buitruonglinh%20%20%20Acoustic%20ver%20.mp3"
+,'./music/y2mate.com - Dù Cho Mai Về Sau Lofi Ver  buitruonglinh x Freak D.mp3'
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20BERLIN%20%20Khoi%20Vu%20%20Official%20Lyrics%20Video.mp3"
 ,];
     
@@ -51,14 +52,12 @@
     
     
     forwardbtn.addEventListener('click', function() {
-        console.log ("foward")
         changeSong(1);
         changethumb(1);
     })
     
 
     backbtn.addEventListener('click', function() {
-        console.log ("backward")
         changeSong (-1);
         changethumb(-1);
     })
@@ -162,7 +161,7 @@ function changePagePc(c) {
     }
 }
 
-let timer = setInterval(Range,500)
+let timer = setInterval(Range,100)
 function Range(){
     range.max = song.duration;
     range.value = song.currentTime;
