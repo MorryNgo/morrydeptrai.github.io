@@ -96,6 +96,7 @@
             {indexPic = pic.length - 1} isPlaying = true;
         }
         thumb.setAttribute('src', `${pic[indexPic]}`)
+        playPause()
     }
     
     playbtn.addEventListener ("click",playPause)
