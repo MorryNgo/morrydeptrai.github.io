@@ -21,6 +21,7 @@
 
 
     const pic = ['https://github.com/MorryNgo/maru-pic/raw/main/01c426ef6f943b06ee6c03c8bc346440.jpg'
+,'./4ff757889616f9e8bb289520adeee7ef.jpg'
 ,'https://github.com/MorryNgo/maru-pic/raw/main/093432e0832ead5a326201c764035b7b.jpg'
 ,'https://github.com/MorryNgo/maru-pic/raw/main/072874bed077d999b4fb8c53425d55df.jpg'
 ,'https://github.com/MorryNgo/maru-pic/raw/main/33efd99b23719a1421ab87d43b50afef.jpg'
@@ -85,18 +86,15 @@
     function changethumb (a) {
         if (a===1) {
             indexPic++;
-            isPlaying= true;
         if (indexPic>= pic.length) {
                 indexPic = 0;
-            }
-            isPlaying = true;}
+            }}
         else if (a===-1){
             indexPic--;
             if (indexPic<0)
-            {indexPic = pic.length - 1} isPlaying = true;
+            {indexPic = pic.length - 1} 
         }
         thumb.setAttribute('src', `${pic[indexPic]}`)
-        playPause()
     }
     
     playbtn.addEventListener ("click",playPause)
