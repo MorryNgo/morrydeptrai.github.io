@@ -174,6 +174,16 @@ body {
   align-items: center;
   border-radius: 50%;
 }
+.loop {
+  width:30px;
+  height:30px;
+  cursor: pointer;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
 .range {
   width:100%;
   background:transparent;

@@ -4,7 +4,9 @@
     const forwardbtn= document.querySelector(".forward")
     const backbtn = document.querySelector  (".backward")
     const menubtn = document.querySelector(".menu-icon")
+    const loopbtn = document.getElementById("loop")
     const range = document.querySelector("body > div.music > input")
+
 
     const menu = document.querySelector(".menu")
     const textmenu =document.querySelector(".text-menu")
@@ -49,8 +51,9 @@
     let isPlaying = true;
     let indexSong = 0;
     let indexPic = 0;
+    let loopWorking = true;
     
-    
+
     
     forwardbtn.addEventListener('click', function() {
         changeSong(1);
@@ -60,7 +63,7 @@
 
     backbtn.addEventListener('click', function() {
         changeSong (-1);
-        changethumb(-1);
+/*         changethumb(-1); */
     })
     
     
@@ -83,6 +86,7 @@
     song.setAttribute ("src" ,`${musics[indexSong]}`);
     playPause()
 }
+setInterval(function(){changethumb(1)},5000)
     function changethumb (a) {
         if (a===1) {
             indexPic++;
@@ -103,13 +107,31 @@
             playbtn.innerHTML='<ion-icon name="pause-outline"></ion-icon>';
             song.play();
             isPlaying = false;
-            
-        } else {
+            } 
+            else {
                 song.pause();
                 playbtn.innerHTML='<ion-icon name="play-circle-outline"></ion-icon>'  
                 isPlaying = true;
             }
         }
+setInterval(end,1000)
+loopbtn.addEventListener("click",loopfunc)
+function loopfunc(){
+    if (loopWorking){
+        loopbtn.style.color = "#f68157"
+        song.loop = true;
+        isPlaying = true;
+        loopWorking = false;
+        playPause()
+    }
+    else {
+        loopbtn.style.color = "initial"
+        loopWorking = true;
+        song.loop = false;
+    }
+}
+
+
 menubtn.addEventListener("click", menuexit)
 function menuexit(){
     if (menuwork) {
@@ -170,4 +192,14 @@ range.addEventListener("change", HandleRange)
 function HandleRange(){
     song.currentTime = range.value
     range.max = song.duration
+}
+
+function end(){
+    if(loopWorking){
+        if(song.currentTime === song.duration){
+            song.currentTime = 0
+            isPlaying = false;
+            playPause()
+        }
+    }
 }
