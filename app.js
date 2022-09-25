@@ -205,17 +205,16 @@ function end(){
 }
 
 function musicfunction(event){
-    var x = event.code;
-    if (x === "Space"){
+    if (event.code === "Space"){
         playPause()
     }
-    else if (x === "KeyA"){
+    else if (event.code === "KeyA" | event.key === "ArrowRight"){
         changeSong(1)
     }
-    else if (x=== "KeyD"){
+    else if (event.code=== "KeyD" | event.key === "ArrowLeft"){
         changeSong(-1)
     }
-    else if (x=== "KeyF"){
+    else if (event.code=== "KeyF"){
         loopfunc()
     }
 }
