@@ -203,3 +203,19 @@ function end(){
         }
     }
 }
+
+function musicfunction(event){
+    var x = event.code;
+    if (x === "Space"){
+        playPause()
+    }
+    else if (x === "KeyA"){
+        changeSong(1)
+    }
+    else if (x=== "KeyD"){
+        changeSong(-1)
+    }
+    else if (x=== "KeyF"){
+        loopfunc()
+    }
+}
