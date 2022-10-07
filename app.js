@@ -34,7 +34,8 @@
 ,'https://github.com/MorryNgo/maru-pic/raw/main/ee64c5e75782215af513e054bb434ded.jpg'
 ,'https://github.com/MorryNgo/maru-pic/raw/main/076aa527bb52f0ed75983c84467a9965.jpg'
 ,]
-    const   musics = ['https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20Nger%20%20V%C6%B0%C6%A1ng%20Official%20Audio.mp3'
+    const   musics = ['https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20WHEN%20YOU%20LOOK%20AT%20ME%20CM1X%20REMIX%20%20Obito%20x%20Seachains.mp3'
+,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20Nger%20%20V%C6%B0%C6%A1ng%20Official%20Audio.mp3'
 ,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20G%E1%BB%ADi%20V%E1%BB%A3%20T%C6%B0%C6%A1ng%20Lai%20%20KayDee%20ft%20Long%20N%C3%B3n%20L%C3%A1%20x%20RyanLo%20%20Fi%20Version%20by%201%209%206%207%20Audio%20Lyrics.mp3'
 ,'https://github.com/MorryNgo/morrydeptrai.com/raw/main/Tinh_Dang_Nhu_Ly_Cafe.mp3'
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com_-_Em_La_Nhat_Kis_x_Hoang_Kaylee_x_Yahy_x_ZeapleeLofi_Version_by_1_9_6_7_Audio_Lyrics_Video.mp3"
@@ -45,7 +46,9 @@
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20gu%20%20freaky%20x%20seachains%20x%201%209%206%207%20%F0%9D%99%A8%F0%9D%99%A1%F0%9D%99%A4%F0%9D%99%AC%F0%9D%99%9A%F0%9D%99%99%20%20%F0%9D%99%A7%F0%9D%99%9A%F0%9D%99%AB%F0%9D%99%9A%F0%9D%99%A7%F0%9D%99%97%20flechazowu.mp3"
 ,'./y2mate.com - Dù Cho Mai Về Sau Lofi Ver  buitruonglinh x Freak D.mp3'
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20BERLIN%20%20Khoi%20Vu%20%20Official%20Lyrics%20Video.mp3"
-,'./y2mate.com - Không thuộc về  Minh Lý  Music Past live  Đúng vậy  em đẹp nhất trên thế gian này.mp3'];
+,'./y2mate.com - Không thuộc về  Minh Lý  Music Past live  Đúng vậy  em đẹp nhất trên thế gian này.mp3'
+,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20PRECIOUS%20%20DADUC%20x%20KIPER%20T%20%20OFFICIAL%20LYRIC%20VIDEO.mp3'
+,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20If%20you%20see%20me%20calling%20xin%20em%20kh%C3%B4ng%20nh%E1%BA%A5c%20m%C3%A1y%20Xin%20%C4%91%E1%BB%ABng%20nh%E1%BA%A5c%20m%C3%A1y%20%20BRay%20Video%20Lyric.mp3'];
     
     let menuwork = true;
     let isPlaying = true;
@@ -86,7 +89,7 @@
     song.setAttribute ("src" ,`${musics[indexSong]}`);
     playPause()
 }
-setInterval(function(){changethumb(1)},5000)
+setInterval(function(){changethumb(1)},3500)
     function changethumb (a) {
         if (a===1) {
             indexPic++;
@@ -161,7 +164,7 @@ function changePage(b) {
     else if(b === 2 ) {
     bigbox.style.visibility = "hidden"
     musicbox.style.visibility = "visible"
-    musicbox.style.margin = '-400px 52px -100px'
+    musicbox.style.margin = '-400px 20% -100px'
     }
 }
 
