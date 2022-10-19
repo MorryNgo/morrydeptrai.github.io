@@ -34,7 +34,8 @@
 ,'https://github.com/MorryNgo/maru-pic/raw/main/ee64c5e75782215af513e054bb434ded.jpg'
 ,'https://github.com/MorryNgo/maru-pic/raw/main/076aa527bb52f0ed75983c84467a9965.jpg'
 ,]
-    const   musics = ['https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20WHEN%20YOU%20LOOK%20AT%20ME%20CM1X%20REMIX%20%20Obito%20x%20Seachains.mp3'
+    const   musics = ['https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20Simple%20Love%20%20Obito%20x%20Seachains%20%20DuckV%20Remix.mp3'
+,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20WHEN%20YOU%20LOOK%20AT%20ME%20CM1X%20REMIX%20%20Obito%20x%20Seachains.mp3'
 ,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20Nger%20%20V%C6%B0%C6%A1ng%20Official%20Audio.mp3'
 ,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20G%E1%BB%ADi%20V%E1%BB%A3%20T%C6%B0%C6%A1ng%20Lai%20%20KayDee%20ft%20Long%20N%C3%B3n%20L%C3%A1%20x%20RyanLo%20%20Fi%20Version%20by%201%209%206%207%20Audio%20Lyrics.mp3'
 ,'https://github.com/MorryNgo/morrydeptrai.com/raw/main/Tinh_Dang_Nhu_Ly_Cafe.mp3'
