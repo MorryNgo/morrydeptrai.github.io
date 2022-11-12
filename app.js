@@ -34,12 +34,13 @@
 ,'https://github.com/MorryNgo/maru-pic/raw/main/ee64c5e75782215af513e054bb434ded.jpg'
 ,'https://github.com/MorryNgo/maru-pic/raw/main/076aa527bb52f0ed75983c84467a9965.jpg'
 ,]
-    const   musics = ['https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20T%C6%AF%C6%A0NG%20T%C6%AF%20%20CLOW%20X%20FLEPY%20ft%20DARKC%20%20Official%20Video%20(1).mp3'
+    const   musics = ['https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20g%E1%BB%ADi%20v%E1%BB%A3%20t%C6%B0%C6%A1ng%20lai%20%20kaydee%20x%20long%20n%C3%B3n%20l%C3%A1%20x%201%209%206%207%20%F0%9D%99%A8%F0%9D%99%A1%F0%9D%99%A4%F0%9D%99%AC%F0%9D%99%9A%F0%9D%99%99%20%20%F0%9D%99%A7%F0%9D%99%9A%F0%9D%99%AB%F0%9D%99%9A%F0%9D%99%A7%F0%9D%99%97%20flechazowu.mp3'
+,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20n%E1%BB%A5%20c%C6%B0%E1%BB%9Di%20em%20l%C3%A0%20n%E1%BA%AFng%20%20green%20x%201%209%206%207%20%F0%9D%99%A8%F0%9D%99%A1%F0%9D%99%A4%F0%9D%99%AC%F0%9D%99%9A%F0%9D%99%99%20%20%F0%9D%99%A7%F0%9D%99%9A%F0%9D%99%AB%F0%9D%99%9A%F0%9D%99%A7%F0%9D%99%97%20flechazowu.mp3'
+,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20T%C6%AF%C6%A0NG%20T%C6%AF%20%20CLOW%20X%20FLEPY%20ft%20DARKC%20%20Official%20Video%20(1).mp3'
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20t%C3%ACnh%20ca%20t%C3%ACnh%20ta%20%20kis%20%F0%9D%99%A8%F0%9D%99%A1%F0%9D%99%A4%F0%9D%99%AC%F0%9D%99%9A%F0%9D%99%99%20%20%F0%9D%99%A7%F0%9D%99%9A%F0%9D%99%AB%F0%9D%99%9A%F0%9D%99%A7%F0%9D%99%97%20flechazowu.mp3"
 ,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20Simple%20Love%20%20Obito%20x%20Seachains%20%20DuckV%20Remix.mp3'
 ,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20WHEN%20YOU%20LOOK%20AT%20ME%20CM1X%20REMIX%20%20Obito%20x%20Seachains.mp3'
 ,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20Nger%20%20V%C6%B0%C6%A1ng%20Official%20Audio.mp3'
-,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20G%E1%BB%ADi%20V%E1%BB%A3%20T%C6%B0%C6%A1ng%20Lai%20%20KayDee%20ft%20Long%20N%C3%B3n%20L%C3%A1%20x%20RyanLo%20%20Fi%20Version%20by%201%209%206%207%20Audio%20Lyrics.mp3'
 ,'https://github.com/MorryNgo/morrydeptrai.com/raw/main/Tinh_Dang_Nhu_Ly_Cafe.mp3'
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com_-_Em_La_Nhat_Kis_x_Hoang_Kaylee_x_Yahy_x_ZeapleeLofi_Version_by_1_9_6_7_Audio_Lyrics_Video.mp3"
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20Deus%20%20B%C3%B4ng%20Hoa%20Ch%E1%BA%B3ng%20Thu%E1%BB%99c%20V%E1%BB%81%20Ta%20Wind%20Remix.mp3"

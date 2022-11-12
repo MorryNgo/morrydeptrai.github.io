@@ -84,6 +84,12 @@ body {
 .bigbox a:hover {
  color: rgb(206, 199, 199) ;
 }
+
+.bigbox li{
+  color:#ffcf98;
+  font-size:large  ;
+  font-weight:bold ; 
+}
 .music {
   width: 300px;
   margin-top:-300px;
