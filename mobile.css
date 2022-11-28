@@ -43,12 +43,12 @@
 body {
     padding: 0;
     margin: 0;
-    background:url(https://images4.alphacoders.com/101/1016505.png) ;
+/*     background:url(https://images4.alphacoders.com/101/1016505.png) ;
     background-blend-mode:color-burn;
     background-color: rgb(177, 154, 145);
     background-position-x: 550px;
     background-size:cover;
-    background-attachment: fixed; 
+    background-attachment: fixed;  */
     user-select: none;
 }
 
@@ -83,6 +83,7 @@ body {
 .bigbox b {
   width: 100%;
   box-shadow: 2px 0px 15px #f68157;}
+
 .music {
   margin-top: -500px;
   width: 300px;
