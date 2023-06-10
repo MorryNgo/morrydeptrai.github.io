@@ -41,6 +41,7 @@
     overflow-wrap: break-word;
   }
 body {
+  background-color: white;
     padding: 0;
     margin: 0;
    /*  background:url(https://images4.alphacoders.com/101/1016505.png) ;
@@ -50,14 +51,16 @@ body {
     background-size:cover;
     background-attachment: fixed;  */
     user-select: none;
+/*     animation: changebackgroundcolour 3s ease forwards ; */
 }
 
-.Umaru {
-  display:inline
-}
+  .Umaru {
+    display:inline
+  }
 .bigbox{
   width: 450px;
-  background: rgba(0, 0, 0, 0.5);
+/*   background: rgba(0, 0, 0, 0.5); */
+background-color:rgb(39 13 0 / 64%);
   padding: 40px;
   position:relative;
   top:200px;
@@ -90,6 +93,17 @@ body {
   font-size:large  ;
   font-weight:bold ; 
 }
+.linkbox{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  gap:30px;
+}
+
+.linkbox .fb {
+  transform: translateY(10px);
+}
+
 .music {
   width: 300px;
   margin-top:-300px;
@@ -213,9 +227,10 @@ body {
   display:none;
 }
 .computer-menu{
-  background-color:rgba(29, 29, 29, 0.329);
+  /* background-color:rgba(29, 29, 29, 0.329); */
+  background-color:rgb(39 13 0 / 64%);
   width:100%;
-  height:30px;
+  height:35px;
   top:0;
   position:fixed;
   display:flex;
@@ -239,3 +254,8 @@ body {
 .icon{
   color:black;
 }
+
+/* @keyframes changebackgroundcolour {
+  from{background-color: white}
+  to{background-color: rgba(0, 0, 0, 0.938)}
+} */

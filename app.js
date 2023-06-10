@@ -34,7 +34,7 @@
 ,'https://github.com/MorryNgo/maru-pic/raw/main/ee64c5e75782215af513e054bb434ded.jpg'
 ,'https://github.com/MorryNgo/maru-pic/raw/main/076aa527bb52f0ed75983c84467a9965.jpg'
 ,]
-    const   musics = ['https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20g%E1%BB%ADi%20v%E1%BB%A3%20t%C6%B0%C6%A1ng%20lai%20%20kaydee%20x%20long%20n%C3%B3n%20l%C3%A1%20x%201%209%206%207%20%F0%9D%99%A8%F0%9D%99%A1%F0%9D%99%A4%F0%9D%99%AC%F0%9D%99%9A%F0%9D%99%99%20%20%F0%9D%99%A7%F0%9D%99%9A%F0%9D%99%AB%F0%9D%99%9A%F0%9D%99%A7%F0%9D%99%97%20flechazowu.mp3'
+    const   musics = ['https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20PRECIOUS%20%20DADUC%20x%20KIPER%20T%20%20OFFICIAL%20LYRIC%20VIDEO.mp3'
 ,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20n%E1%BB%A5%20c%C6%B0%E1%BB%9Di%20em%20l%C3%A0%20n%E1%BA%AFng%20%20green%20x%201%209%206%207%20%F0%9D%99%A8%F0%9D%99%A1%F0%9D%99%A4%F0%9D%99%AC%F0%9D%99%9A%F0%9D%99%99%20%20%F0%9D%99%A7%F0%9D%99%9A%F0%9D%99%AB%F0%9D%99%9A%F0%9D%99%A7%F0%9D%99%97%20flechazowu.mp3'
 ,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20T%C6%AF%C6%A0NG%20T%C6%AF%20%20CLOW%20X%20FLEPY%20ft%20DARKC%20%20Official%20Video%20(1).mp3'
 ,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20%20CH%C3%81U%20XIN%20L%E1%BB%96I%20CH%C3%9A%20%20LINH%20TH%E1%BB%98N%20x%20JAY%20BACH%20ft%20GIA%20NGHI%20%20BANAOX%20X%20HHD%20REMIX%20%20%20NH%E1%BB%9A%20%C4%90EO%20TAI%20NGHE.mp3'
@@ -51,8 +51,8 @@
 ,'./y2mate.com - Dù Cho Mai Về Sau Lofi Ver  buitruonglinh x Freak D.mp3'
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20BERLIN%20%20Khoi%20Vu%20%20Official%20Lyrics%20Video.mp3"
 ,'./y2mate.com - Không thuộc về  Minh Lý  Music Past live  Đúng vậy  em đẹp nhất trên thế gian này.mp3'
-,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20PRECIOUS%20%20DADUC%20x%20KIPER%20T%20%20OFFICIAL%20LYRIC%20VIDEO.mp3'
-,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20If%20you%20see%20me%20calling%20xin%20em%20kh%C3%B4ng%20nh%E1%BA%A5c%20m%C3%A1y%20Xin%20%C4%91%E1%BB%ABng%20nh%E1%BA%A5c%20m%C3%A1y%20%20BRay%20Video%20Lyric.mp3'];
+,''
+,];
     
     let menuwork = true;
     let isPlaying = true;

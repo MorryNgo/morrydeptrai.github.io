@@ -84,6 +84,17 @@ body {
   width: 100%;
   box-shadow: 2px 0px 15px #f68157;}
 
+.linkbox{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    gap:30px;
+  }
+  
+.linkbox .fb {
+    transform: translateY(10px);
+  }
+  
 .music {
   margin-top: -500px;
   width: 300px;
@@ -208,7 +219,7 @@ body {
     width: 55px;
     height: 55px;
     position:relative;
-    bottom: 420px;
+    bottom: 430px;
     color:white;
 }
 
