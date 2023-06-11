@@ -34,10 +34,11 @@
 ,'https://github.com/MorryNgo/maru-pic/raw/main/ee64c5e75782215af513e054bb434ded.jpg'
 ,'https://github.com/MorryNgo/maru-pic/raw/main/076aa527bb52f0ed75983c84467a9965.jpg'
 ,]
-    const   musics = ['https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20PRECIOUS%20%20DADUC%20x%20KIPER%20T%20%20OFFICIAL%20LYRIC%20VIDEO.mp3'
+    const   musics = ['https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20T%C6%AF%C6%A0NG%20T%C6%AF%20%20CLOW%20X%20FLEPY%20ft%20DARKC%20%20Official%20Video%20(1).mp3'
+,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20%F0%9D%9A%82%F0%9D%9A%92%F0%9D%9A%96%F0%9D%9A%99%F0%9D%9A%95%F0%9D%9A%8E%20%F0%9D%9A%95%F0%9D%9A%98%F0%9D%9A%9F%F0%9D%9A%8E%20%20%F0%9D%9A%98%F0%9D%9A%8B%F0%9D%9A%92%F0%9D%9A%9D%F0%9D%9A%98%20%F0%9D%9A%86%F0%9D%99%BD%20%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%96%F0%9D%9A%92%F0%9D%9A%A1%20%F0%9D%9A%98%F0%9D%9A%90%F0%9D%9A%8E%F0%9D%9A%97%F0%9D%9A%9E%F0%9D%9A%9C%20%20%F0%9D%9A%9C%F0%9D%9A%95%F0%9D%9A%98%F0%9D%9A%A0%F0%9D%9A%8E%F0%9D%9A%8D%20%20%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%9F%F0%9D%9A%8E%F0%9D%9A%9B%F0%9D%9A%8B.mp3'
+,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20PRECIOUS%20%20DADUC%20x%20KIPER%20T%20%20OFFICIAL%20LYRIC%20VIDEO.mp3'
+,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20Wn%20%20Crush%20%20%F0%9D%99%A8%F0%9D%99%A1%F0%9D%99%A4%F0%9D%99%AC%F0%9D%99%9A%F0%9D%99%99%20%20%F0%9D%99%A7%F0%9D%99%9A%F0%9D%99%AB%F0%9D%99%9A%F0%9D%99%A7%F0%9D%99%97%20.mp3'
 ,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20n%E1%BB%A5%20c%C6%B0%E1%BB%9Di%20em%20l%C3%A0%20n%E1%BA%AFng%20%20green%20x%201%209%206%207%20%F0%9D%99%A8%F0%9D%99%A1%F0%9D%99%A4%F0%9D%99%AC%F0%9D%99%9A%F0%9D%99%99%20%20%F0%9D%99%A7%F0%9D%99%9A%F0%9D%99%AB%F0%9D%99%9A%F0%9D%99%A7%F0%9D%99%97%20flechazowu.mp3'
-,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20T%C6%AF%C6%A0NG%20T%C6%AF%20%20CLOW%20X%20FLEPY%20ft%20DARKC%20%20Official%20Video%20(1).mp3'
-,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20%20CH%C3%81U%20XIN%20L%E1%BB%96I%20CH%C3%9A%20%20LINH%20TH%E1%BB%98N%20x%20JAY%20BACH%20ft%20GIA%20NGHI%20%20BANAOX%20X%20HHD%20REMIX%20%20%20NH%E1%BB%9A%20%C4%90EO%20TAI%20NGHE.mp3'
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20t%C3%ACnh%20ca%20t%C3%ACnh%20ta%20%20kis%20%F0%9D%99%A8%F0%9D%99%A1%F0%9D%99%A4%F0%9D%99%AC%F0%9D%99%9A%F0%9D%99%99%20%20%F0%9D%99%A7%F0%9D%99%9A%F0%9D%99%AB%F0%9D%99%9A%F0%9D%99%A7%F0%9D%99%97%20flechazowu.mp3"
 ,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20Simple%20Love%20%20Obito%20x%20Seachains%20%20DuckV%20Remix.mp3'
 ,'https://github.com/MorryNgo/morryinformation/raw/main/y2mate.com%20-%20WHEN%20YOU%20LOOK%20AT%20ME%20CM1X%20REMIX%20%20Obito%20x%20Seachains.mp3'
@@ -50,9 +51,7 @@
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20gu%20%20freaky%20x%20seachains%20x%201%209%206%207%20%F0%9D%99%A8%F0%9D%99%A1%F0%9D%99%A4%F0%9D%99%AC%F0%9D%99%9A%F0%9D%99%99%20%20%F0%9D%99%A7%F0%9D%99%9A%F0%9D%99%AB%F0%9D%99%9A%F0%9D%99%A7%F0%9D%99%97%20flechazowu.mp3"
 ,'./y2mate.com - Dù Cho Mai Về Sau Lofi Ver  buitruonglinh x Freak D.mp3'
 ,"https://github.com/MorryNgo/morrydeptrai.com/raw/main/y2mate.com%20-%20BERLIN%20%20Khoi%20Vu%20%20Official%20Lyrics%20Video.mp3"
-,'./y2mate.com - Không thuộc về  Minh Lý  Music Past live  Đúng vậy  em đẹp nhất trên thế gian này.mp3'
-,''
-,];
+,'./y2mate.com - Không thuộc về  Minh Lý  Music Past live  Đúng vậy  em đẹp nhất trên thế gian này.mp3'];
     
     let menuwork = true;
     let isPlaying = true;
@@ -216,10 +215,10 @@ function musicfunction(event){
         playPause()
     }
     else if (event.code === "KeyA" | event.key === "ArrowRight"){
-        changeSong(1)
+        changeSong(-1)
     }
     else if (event.code=== "KeyD" | event.key === "ArrowLeft"){
-        changeSong(-1)
+        changeSong(1)
     }
     else if (event.code=== "KeyF"){
         loopfunc()
